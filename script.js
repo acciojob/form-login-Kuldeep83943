@@ -3,6 +3,6 @@ function getFormvalue() {
 	let form = document.getElementById("form1");
 	let fname = form.fname.value;
 	let lname = form.lname.value;
-	alert(fname,lname);
+	alert(fname+" "+lname);
 
 }
